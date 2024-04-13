@@ -4,10 +4,10 @@
   CS 132 Spring 2024
   Date: 4/12/24
 
-  This is the home page for my website meant to provide facts and pictures about
+  This is the index.html for my website meant to provide facts and pictures about
   the Akita dog breed. It includes a navigation bar with a link to a second
-  website 
-
+  website detailing the differences between Japanese and American Akitas. It
+  also procvides basic Akita facts and pictures.
 -->
 <html lang="en">
 <head>
@@ -16,8 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" />
-    <link href="home_styles.css" rel = "stylesheet"/>
+    <link href="styles.css" rel="stylesheet" >
+    <link href="index-styles.css" rel = "stylesheet">
     <title>Akitas</title>
 </head>
 <body>
@@ -31,6 +31,9 @@
         </nav>
     </header>
     <main>
+        <!--
+            Content Source: Wikipedia
+        -->
         <section>
             <header>
                 <h2> The Akita Breed </h2>
@@ -40,6 +43,18 @@
             The Akita breed originated from the hunting dogs in the Tohoku region
             of northern Japan. They were bred to hunt boars, deer, and bears. Akitas
             were first introduced to America by Hellen Keller in 1938.
+            </p>
+            <!--
+                Image source: Wikipedia
+                See page for author, Public domain, via Wikimedia Commons
+            -->
+            <img src="imgs/hachiko.png" alt="Faithful Dog Hachiko">
+            <!--
+                Image source: American Kennel Club
+                Liliya Kulianionak/Shutterstock
+            -->
+            <img src="imgs/akita1.jpeg" alt="An Akita">
+            <p>
             Akitas are known to be independent and loyal dogs. Ther loyalty is 
             epitomized by the infamous story of Hachiko, an Akita who waited at the train
             station everyday for his owner years after the owner had died. 
@@ -52,30 +67,18 @@
             from the Akitas in Japan. There are signficant differences between the two types
             of Akitas which is highlighted in the Japanese vs. American Akita page.
             </p>
-            <div>
-                <!--
-                Image source: Wikipedia
-                See page for author, Public domain, via Wikimedia Commons
-                -->
-                <img src="imgs/hachiko.png" alt="Faithful Dog Hachiko">
-
-                <!--
-                Image source: American Kennel Club
-                -->
-                <img src="imgs/akita1.jpeg" alt="An Akita">
-                <!--
+            <!-- 
                 Image source: Pet Guide
-                -->
-                <img src="imgs/akita2.jpg" alt="An Akita">
-            </div>
-            
+                ardoY/Shutterstock
+            -->
+            <img src="imgs/akita2.jpg" alt="An Akita">
         </section>
         <aside>
             <figure>
                 <!-- Image source: Andy Sun -->
                 <img src="imgs/fitz2.jpg" alt="Fitzgerald the Akita">
+                <figcaption>Fitzgerald the Akita!</figcaption>
             </figure>
-            <figcaption>Fitzgerald the Akita!</figcaption>
             <p>
                 Fitzgerald is my male Akita. His favorite foods are white rice,
                 salmon, and french fries. He enjoys running, napping, and eating.
@@ -84,7 +87,7 @@
         </aside>
     </main>
     <footer>
-
+        <p> Photos Cited in Source</p>
     </footer>
     
 </body>

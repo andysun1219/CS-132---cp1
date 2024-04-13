@@ -1,6 +1,17 @@
+/*
+  Author: Andy Sun
+  CS 132 Spring 2024
+  Date: 4/12/24
+
+  This is the styles.css page for my Akita website. It is used by both pages so that
+  common elements like the navigation bar have a consistent appearance. It creates a 
+  minimalistic style using light blue.
+*/
+
 body, main {
   display: flex;
 }
+
 body {
   background-color: #D6E5E3;
   font-family: Montserrat, sans-serif;
@@ -9,7 +20,7 @@ body {
   flex-direction: column; 
 }
 
-body > header {
+body > header, footer {
   text-align: center;
 }
 
@@ -18,7 +29,7 @@ h1 {
   margin: 0px;
 }
 
-/* ---------------------------- Navigation Styles ---------------------------- */  
+/* nav bar */  
 nav li {
   display: inline;
   list-style-type: none;
@@ -26,18 +37,20 @@ nav li {
   border-radius: 5px;
   padding: 10px;
 }
+
 a:link{
   color: #364958;
   text-decoration: none;
 }
+
 a:hover{
   color: #608099;
 }
 
-
 footer {
   background-color: #9FD8CB;
-  text-align: center;
   font-style: italic;
-  margin: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
 }
+

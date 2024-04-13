@@ -1,0 +1,72 @@
+/*
+  Author: Andy Sun
+  CS 132 Spring 2024
+  Date: 4/12/24
+
+  This is the index-styles.css page for my Akita website. It is used by the
+  index.html file for styles that are only used by the index.html file. It creates a 
+  minimalistic style using light blue.
+*/
+
+/* Section */
+header, section {
+    width: 100%;
+}
+
+section {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section>img, section>p, figure>img, aside {
+    border-radius: 20px;
+}
+
+section > img{
+    width: 25%;
+}
+
+section > p, aside {
+    background-color:#9FD8CB;
+}
+
+section > p {
+    width: 65%;
+    font-size: 16pt;
+    padding: 15px;
+}
+
+/* Aside */
+figure, figcaption, section > p, figcaption {
+    text-align: center;
+}
+
+figure {
+    margin: auto auto;
+}
+
+figure > img {
+    width: 95%;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+aside {
+    margin-top: 20px;
+    padding: 20px;
+    width: 30%;
+    height: max-content;
+}
+
+aside > p{
+    margin-top: 5px;
+}
+
+
+

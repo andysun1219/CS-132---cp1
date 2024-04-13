@@ -1,0 +1,38 @@
+/*
+  Author: Andy Sun
+  CS 132 Spring 2024
+  Date: 4/12/24
+
+  This is the akitacomparison-styles.css page for my Akita website. It is used by the
+  akitacomparison.html file for styles that are only used by the akitacomparison.html file.
+  It creates a minimalistic style using light blue.
+*/
+
+h2, td {
+    text-align: center;
+}
+
+section {
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    margin: auto auto;
+}
+
+td, section {
+    padding: 10px;
+}
+
+td img, .colored-row {
+    border-radius: 20px;
+}
+
+td img {
+    width: 45%;
+}
+
+.colored-row {
+    background-color: #9FD8CB;
+}

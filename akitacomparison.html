@@ -4,8 +4,9 @@
   CS 132 Spring 2024
   Date: 4/12/24
 
-  Add a brief description of what this file does here!
-
+  This is the akitacomparison.html page for my Akita website. It includes
+  a comparison chart comparing Japanese and American Akitas. Each row compares
+  a different attribute of the two breeds.
 -->
 <html lang="en">
 <head>
@@ -14,8 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" />
-    <link href="akitacomparison_styles.css" rel = "stylesheet"/>
+    <link href="styles.css" rel="stylesheet" >
+    <link href="akitacomparison-styles.css" rel = "stylesheet">
     <title>Akitas</title>
 </head>
 <body>
@@ -23,14 +24,19 @@
         <h1>All About Akitas!</h1>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Japanese vs. American Akitas</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <!--
+            Content Source: Wikipedia
+        -->
         <section>
-            <h2> Japanese vs. American Akitas! </h2>
+            <header>
+                <h2> Japanese vs. American Akitas! </h2>
+            </header>
             <table>
                 <thead>
                     <tr>
@@ -40,15 +46,16 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
+                        <td class="colored-row">
                             <!--
-                            Image source: Mark L. Baer/MLBaer Photography
+                                American Kennel Club
+                                Image source: Mark L. Baer/MLBaer Photography
                             -->
                             <img src="imgs/akita4.jpeg" alt="A Japanese Akita">
                         </td>
-                        <td>
+                        <td class="colored-row">
                             <!--
-                            Image source: ZooBonus
+                                Image source: ZooBonus
                             -->
                             <img src="imgs/akita3.jpeg" alt="An American Akita">
                         </td>
@@ -64,12 +71,12 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="colored-row">
                             Japanese Akitas are shorter. Females tend to measure around
                             22-24 inches at the withers and males tend to measure around 24-26 inches
                             at the withers.
                         </td>
-                        <td>
+                        <td class="colored-row">
                             American Akitas are taller. Females tend to measure around
                             24-26 inches at the withers and males tend to measure around 26-28 inches
                             at the withers.
@@ -92,6 +99,7 @@
         
     </main>
     <footer>
+        <p> Photos Cited in Source</p>
     </footer>
     
 </body>
