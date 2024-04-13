@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+section {
+    padding: 10px;
+    width: 100%;
+}
+table {
+    width: 80%;
+    margin: auto auto;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+td img {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+
+}

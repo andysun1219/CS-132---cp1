@@ -1,0 +1,43 @@
+body, main {
+  display: flex;
+}
+body {
+  background-color: #D6E5E3;
+  font-family: Montserrat, sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  flex-direction: column; 
+}
+
+body > header {
+  text-align: center;
+}
+
+h1 {
+	padding: 20px;
+  margin: 0px;
+}
+
+/* ---------------------------- Navigation Styles ---------------------------- */  
+nav li {
+  display: inline;
+  list-style-type: none;
+  background-color: #87BBA2;
+  border-radius: 5px;
+  padding: 10px;
+}
+a:link{
+  color: #364958;
+  text-decoration: none;
+}
+a:hover{
+  color: #608099;
+}
+
+
+footer {
+  background-color: #9FD8CB;
+  text-align: center;
+  font-style: italic;
+  margin: 50px;
+}
